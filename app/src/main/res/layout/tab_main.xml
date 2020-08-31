@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#09FFFF"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout_game"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/tab_game"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="游戏"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_show"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/tab_show"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="直播"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_music"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/tab_music"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="音乐"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_news"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/tab_news"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="新闻"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_weather"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/tab_weather"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="天气"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item android:id="@+id/heard_game"
+          android:title="游戏"/>
+
+    <item android:id="@+id/heard_show"
+        android:title="直播"/>
+
+    <item android:id="@+id/heard_music"
+        android:title="音乐"/>
+
+    <item android:id="@+id/heard_news"
+        android:title="新闻"/>
+
+    <item android:id="@+id/heard_weather"
+        android:title="天气"/>
+</group>
+</menu>
